@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
 
-public class firstTestArscom {
+public class firstArscomTest {
     private WebDriver driver;
     private HomePage homePage;
     @BeforeClass
