@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class signInTest {
+public class SignInHomePageTest {
     private WebDriver driver;
     private SignInPage signInPage;
     @BeforeClass
@@ -25,7 +25,6 @@ public class signInTest {
     public void setup() {
         this.driver = new ChromeDriver();
         signInPage = new SignInPage(driver);
-
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @After

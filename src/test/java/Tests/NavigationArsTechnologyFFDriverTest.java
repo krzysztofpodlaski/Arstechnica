@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class firstArscomFFDriverTest {
+public class NavigationArsTechnologyFFDriverTest {
     private WebDriver driver;
     private HomePage homePage;
     @BeforeClass
